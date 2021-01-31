@@ -1,7 +1,7 @@
 /*
-This program detects human faces in pictures, label the faces with rectangles, and add a hat image to the top of each face.
-The pictures are taken by the camera of the device running this program.
-Implemented with OpenCV, the detection procedure use cascaded Adaboost classifiers to detect human faces based on Harr features.
+    This program detects human faces in pictures, label the faces with rectangles, and add a hat image to the top of each face.
+    The pictures are taken by the camera of the device running this program.
+    Implemented with OpenCV, the detection procedure use cascaded Adaboost classifiers to detect human faces based on Harr features.
 */
 #include "opencv2/opencv.hpp"
 #include <iostream>
